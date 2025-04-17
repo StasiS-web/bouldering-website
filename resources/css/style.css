@@ -8,6 +8,8 @@ body {
     font-family: "Montserrat Alternates", "sans-serif";
     font-size: 1.25rem;
     line-height: 1.6;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
 }
 
 header {
@@ -32,16 +34,6 @@ h3 {
     font-size: 1.5rem;
 }
 
-section {
-    margin-block: 100px;
-}
-
-.hero-img {
-    display: block;
-    margin: atuto;
-    width: 100%;
-}
-
 .menu {
     display: flex;
     justify-content: right;
@@ -54,11 +46,24 @@ section {
     padding-left: 15px;
 }
 
+section {
+    margin-block: 100px;
+}
+
+.hero-img {
+    display: block;
+    margin: atuto;
+    width: 100%;
+}
+
+.teal-bg {
+    background-color: #087A98;
+    color: #FFFFFF;
+    border: 5px solid #0B4A5A;
+    text-align: center;
+    padding: 20px;
+}
 
 footer {
-    background-color: #22466C;
-    color: #FFFFFF;
-    padding-block: 30px;
     text-align: center;
-    border: 10px solid #6E84CF;
 }
