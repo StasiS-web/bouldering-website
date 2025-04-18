@@ -74,10 +74,11 @@ ol li::marker{
     color: #087A98;
 }
  
-.hero-img {
+.position-img {
     display: block;
     margin: atuto;
     width: 100%;
+    padding-block-end: 40px;
 }
 
 .teal-text {
