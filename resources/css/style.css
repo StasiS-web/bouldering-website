@@ -95,6 +95,7 @@ header {
 .two-column-layout {
     display: grid;
     gap: 60px;
+    margin-block-end: 60px;
 
     @media (width > 720px) {
         grid-template-columns: 1fr 1fr;
