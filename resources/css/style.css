@@ -12,10 +12,6 @@ body {
     margin-inline-end: 100px;
 }
 
-header {
-    text-align: center;
-}
-
 h1 {
     font-family: "Playfair Display", serif;
     text-align: center;
@@ -34,27 +30,14 @@ h3 {
     font-size: 1.5rem;
 }
 
-.menu {
-    display: flex;
-    justify-content: right;
-    list-style-type: none;
-    padding-right: 25px;
-}
-
-.menu-item {
-    align-items: center;
-    padding-left: 15px;
-}
-
 a {
     color: #2B930B;
+    text-decoration: none;
 }
 
 a:hover,
 a:focus-visible {
-    color: #4fc42b;
-    text-decoration-style: dashed;
-    text-decoration-color: #62f336;
+    color: #5F9B9F;
 }
 
 img {
@@ -70,8 +53,36 @@ section ul li::marker {
     content: '🔥 ';
 }
 
+li {
+    margin-block: 5px;
+}
+
 section {
     margin-block: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.primary-navigation ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-navigation a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.primary-navigation a:hover,
+.primary-navigation a:focus-visible {
+    color: #67ecf6;
 }
 
 .wrapper {
