@@ -8,16 +8,18 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 1.25rem;
     line-height: 1.6;
-    margin-inline-start: 100px;
-    margin-inline-end: 100px;
 }
 
 h1 {
     font-family: "Playfair Display", serif;
     text-align: center;
     color: #484D55;
-    font-size: 6.5rem;
+    font-size: 4.5rem;
     line-height: 1.1;
+
+    @media (width > 720px) {
+        font-size: 7.5rem;
+    }
 }
 
 h2 {
@@ -93,7 +95,10 @@ header {
 .two-column-layout {
     display: grid;
     gap: 60px;
-    grid-template-columns: 1fr 1fr;
+
+    @media (width > 720px) {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 ol {
