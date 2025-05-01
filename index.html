@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
@@ -7,78 +7,101 @@
     <title>Bouldering Website</title>
 
     <!--=============== FAVICON ===============-->
-    <link href="/resources/images/favicon.ico" type="image/ico" sizes="32x32" rel="icon">
+    <link href="/resources/images/favicon.ico" type="image/ico" sizes="32x32" rel="icon" />
     <!--=============== Core theme CSS ===============-->
     <link href="/resources/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <!--===============HEADER==============-->
-    <header>
-        <!-- logo -->
-        <img src="/resources/images/logo.svg" alt="Boulder inc." />
-        <!--===============NAVIGATION==============-->
-         <nav>
-            <ul class="menu">
-                <li class="menu-item">
-                    <a href="./index.html">Home</a>
-                </li>
-                <li class="menu-item">
-                    <a href="./getting-started.html">Getting Started</a>
-                </li>
-            </ul>
-         </nav>
-    </header>
-
+    <div class="wrapper">
+        <!--===============HEADER==============-->
+        <header>
+            <!-- logo -->
+            <img src="/resources/images/logo.svg" alt="Boulder inc." />
+            <!--===============NAVIGATION==============-->
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="./getting-started.html">Getting Started</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <!--=============== MAIN ===============-->
     <main>
-        <h1>Discover the Thrill of <span class="teal-text">Bouldering</span></h1> 
-        <img src="./resources/images/bouldering-gym.jpg" alt="An indoor bouldering gym, with a lot of people." class="position-img"/>
-
+        <div class="wrapper">
+            <h1>
+                Discover the Thrill of <span class="teal-text">Bouldering</span>
+            </h1>
+            <img src="./resources/images/bouldering-gym.jpg" alt="An indoor bouldering gym, with a lot of people." />
+        </div>
         <section>
-            <h2>What is Bouldering?</h2>
-            <p>
-            Bouldering is a form of rock climbing that is performed on small rock formations or artificial
-            rock walls without the use of ropes or harnesses.
-            </p>
+            <div class="wrapper">
+                <div class="two-column-layout">
+                    <div>
+                        <h2>What is Bouldering?</h2>
+                        <p>
+                            Bouldering is a form of rock climbing that is performed on small
+                            rock formations or artificial rock walls without the use of ropes or
+                            harnesses.
+                        </p>
 
-            <p>
-            Unlike <a href="https://en.wikipedia.org/wiki/Traditional_climbing">traditional climbing</a>, bouldering focuses on short but intensive routes called "problems,"
-            typically keeping climbers within a safe distance from the ground while they navigate
-            challenging sequences of moves.
-            </p>
-            <!-- <img src="./resources/images/what-is-bouldering.jpg" alt="A person doing bouldering climbing." /> -->
- 
+                        <p>
+                            Unlike <a href="https://en.wikipedia.org/wiki/Traditional_climbing">traditional
+                                climbing</a>,
+                            bouldering
+                            focuses on short but intensive routes called
+                            "problems," typically keeping climbers within a safe distance from
+                            the ground while they navigate challenging sequences of moves.
+                        </p>
+                    </div>
+                    <img src="./resources/images/what-is-bouldering.jpg"
+                        alt="A man is trying bouldering problem at an indoor gym." />
+                </div>
+            </div>
             <div class="teal-bg">
-                <p>
-                Experience the perfect blend of <strong>physical challenge and mental puzzle-solving</strong> as you navigate
-                routes close to the ground, with nothing but a crash pad and determination.
-                </p>
-                
-                <p>
-                Bouldering strips climbing down to its purest form, making it both <strong>accessible to beginners and 
-                endlessly challenging for experts</strong> .
-                </p>
+                <div class="wrapper">
+                    <p>
+                        Experience the perfect blend of <strong>physical challenge and mental puzzle-solving</strong> as
+                        you navigate routes close to the ground, with nothing but a crash pad and determination.
+                    </p>
+
+                    <p>
+                        Bouldering strips climbing down to its purest form, making it both
+                        <strong>accessible to beginners and endlessly challenging for experts</strong>.
+                    </p>
+                </div>
             </div>
         </section>
 
+        <div class="wrapper">
+            <section>
+                <div class="two-column-layout">
+                    <img src="./resources/images/why-bouldering.jpg"
+                            alt="A person is climbing a large boulder outdoors with a blue sky in the background." />
+                    <div>
+                        <h2 class="teal-text">Why Bouldering?</h2>
+                        <p>
+                            Whether you're a complete beginner or an experienced athlete,
+                            climbers of all ages can challenge themselves, celebrate each
+                            other's successes, and <em>build lasting friendships</em>.
+                        </p>
 
-        <section>
-            <!-- <img src="./resources/images/why-bouldering.jpg" alt="A bottom angle of a shirtless man climbing a boulder outdoors."/> -->
-            <h2 class="teal-text">Why Bouldering?</h2>
-            <p>
-            Whether you're a complete beginner or an experienced athlete, climbers of all ages can challenge
-            themselves, celebrate each other's successes, and <em>build lasting friendships</em>.
-            </p>
-
-            <h3>Reasons to get started:</h3>
-            <ul>
-                <li>Full-body workout</li>
-                <li>Improves problem solving skills</li>
-                <li>Builds mental resilience</li>
-                <li>And much more!</li>
-            </ul>
-        </section>
+                        <h3>Reasons to get started:</h3>
+                        <ul>
+                            <li>Full-body workout</li>
+                            <li>Improves problem solving skills</li>
+                            <li>Builds mental resilience</li>
+                            <li>And much more!</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
     <!--=============== FOOTER ===============-->
